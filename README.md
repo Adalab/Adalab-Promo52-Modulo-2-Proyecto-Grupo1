@@ -67,7 +67,7 @@ La presentación está estructurada en salas temáticas por género:
 - CSV spoty_min.csv: archivo necesario para la creación de la tabla tracks.
 - CSV lastfm_min.csv: archivo necesario para la creación de la tabla artist.
 - Fichero SQL (Proyecto MUSIUM Consultas): contiene todas las consultas realizadas para el análisis de datos que se muestran en la presentación.
-- Presentación del proyecto MUSIUM: se indicará el enlace después de la presentación. 
+- Presentación del proyecto MUSIUM: https://view.genially.com/6825baa2482b5a3cea7f2ce7/presentation-musium
 
 ---
 
