@@ -17,10 +17,13 @@
 
 ## 📖 Descripción
 
-"MUSIUM" es la propuesta de DATORA para el Museo Virtual Interactivo, en el contexto de la reapertura del evento nocturno Art After Dark del Museo Guggenheim tras la pandemia.
-A través de un recorrido inmersivo, exploramos la evolución de la música en cuatro géneros —Pop, Rock, Reggaetón y Rap— y en cinco años clave: 2008, 2012, 2016, 2020 y 2024.
-
-A partir de datos extraídos de las APIs de Spotify y Last.fm, recopilamos métricas de popularidad, duración y contenido explícito, entre otras. Estas fueron almacenadas en una base de datos MySQL y analizadas con SQL y Python, para fundamentar la selección de artistas y la puesta en escena de cada sala.
+"MUSIUM" es la propuesta de DATORA para el Museo Virtual Interactivo, en el contexto de la reapertura del evento nocturno Art After Dark del Museo Guggenheim tras la pandemia.  
+ 
+A través de un recorrido inmersivo, exploramos la evolución de la música en cuatro géneros —Pop, Rock, Reggaetón y Rap— y en cinco años clave: 2008, 2012, 2016, 2020 y 2024.  
+  
+A partir de datos extraídos de las APIs de Spotify y Last.fm, recopilamos métricas de popularidad, duración y contenido explícito, entre otras. Estas fueron almacenadas en una base de datos MySQL y analizadas con SQL y Python, para fundamentar la selección de artistas y la puesta en escena de cada sala.  
+  
+Inicialmente, diseñamos una estructura compuesta por cuatro tablas más dos tablas puente, pero tras recibir indicaciones de que solo se esperaban dos tablas principales, optamos por simplificar el modelo y descartar esa primera versión.  
 
 ---
 
@@ -63,8 +66,8 @@ La presentación está estructurada en salas temáticas por género:
 - Jupyter Notebook (Proyecto MUSIUM II): trabaja con los CSV ya limpios e incluye el conector de MySQL para crear el schema, las tablas, cargar los datos, establecer la clave foránea y cerrar la conexión.
 - CSV spoty_min.csv: archivo necesario para la creación de la tabla tracks.
 - CSV lastfm_min.csv: archivo necesario para la creación de la tabla artist.
-- Fichero .sql: contiene todas las consultas realizadas para el análisis de datos que se muestran en la presentación.
-- Presentación del proyecto MUSIUM: documento final con el recorrido, visualizaciones y conclusiones del análisis.
+- Fichero.sql: contiene todas las consultas realizadas para el análisis de datos que se muestran en la presentación.
+- Presentación del proyecto MUSIUM: se indicará el enlace después de la presentación. 
 
 ---
 
