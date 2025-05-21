@@ -419,3 +419,11 @@ UNION ALL
   ORDER BY popularity DESC
   LIMIT 5)
 ORDER BY year;
+
+-- Para obtener la biografía de Billie Eilish para el cartel de la WEB:
+
+SELECT DISTINCT t.genre, a.artist_name, a.biography, t.popularity
+FROM artist a
+JOIN tracks t on a.artist_name = t.artist_name
+ORDER BY t.popularity DESC
+LIMIT 1;
